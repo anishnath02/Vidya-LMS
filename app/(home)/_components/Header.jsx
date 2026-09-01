@@ -16,7 +16,7 @@ function Header(){
       <SearchBar/>
       <div className='flex items-center gap-4'>
         <BellDot/>
-        {!user?<button className='border-2 font-semibold text-purple-950 border-purple-900 rounded-md p-1 hover:bg-purple-700 hover:text-white' onClick={()=>router.push('/sign-in')}>Get Started</button>:
+        {!user?<button className='border-2 font-semibold text-purple-600 border-purple-700 rounded-md p-1 hover:bg-purple-700 hover:text-white' onClick={()=>router.push('/sign-in')}>Get Started</button>:
         <UserButton/>}
       </div>
     </div>
