@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function WelcomeBanner() {
   return (
-    <div className='flex gap-5 items-center bg-purple-300 rounded-xl p-5 mb-5'>
+    <div className='flex gap-5 items-center bg-purple-600 rounded-xl p-5 mb-5'>
       <Image className='cursor-pointer' src='/Robot.png' alt='Loading..' width={100} height={100}/>
       
       <div>
